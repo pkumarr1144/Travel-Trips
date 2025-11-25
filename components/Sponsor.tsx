@@ -6,7 +6,7 @@ const Sponsor = ({
   title = "Air Partners",
   subtitle = "Trusted airlines we work with",
 }) => {
-  const scrollRef = useRef(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   // Auto scrolling animation
   useEffect(() => {

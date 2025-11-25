@@ -28,7 +28,7 @@ export const NAV_LINKS_UPDATED = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [scrolling, setScrolling] = useState(false);
-  const [openDropdown, setOpenDropdown] = useState(null);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   useEffect(() => {
     const handleScroll = () => setScrolling(window.scrollY > 50);

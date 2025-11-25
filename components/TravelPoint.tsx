@@ -9,7 +9,7 @@ const TravelPoint = () => {
         <div className="relative w-full lg:w-1/2 flex justify-center lg:justify-start">
           <div className="relative w-full max-w-[650px] h-[520px] rounded-[35px] overflow-hidden shadow-xl">
             <Image
-              src="/person.png"
+              src="/Person.png"
               alt="Travel destination"
               fill
               className="object-cover"

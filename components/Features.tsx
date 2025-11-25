@@ -105,7 +105,7 @@ interface FeatureProps {
 const FeaturesCard = ({ icon, title, subtitle }: FeatureProps) => {
   return (
     <div className="group flex w-full cursor-pointer items-center gap-4 rounded-3xl bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg xl:w-3/4">
-      <div classname="left flex-shrink-0 rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-100 p-4">
+      <div className="left flex-shrink-0 rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-100 p-4">
         <Image
           src={icon}
           alt="feature icon"
